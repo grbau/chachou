@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+
+    &__letter {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+    }
+}
